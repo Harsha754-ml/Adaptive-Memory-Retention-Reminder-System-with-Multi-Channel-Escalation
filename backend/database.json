@@ -1,0 +1,22 @@
+{
+  "flashcards": [],
+  "events": [
+    {
+      "id": "evt_1774637388182",
+      "text": "Demo mode: ON",
+      "type": "info",
+      "timestamp": 1774637388.1825535
+    },
+    {
+      "id": "evt_1774637468803",
+      "text": "Demo mode: ON",
+      "type": "info",
+      "timestamp": 1774637468.8039982
+    }
+  ],
+  "pending_notifications": [],
+  "demo_mode": true,
+  "settings": {
+    "compression_ratio": 1440
+  }
+}

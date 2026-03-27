@@ -1,0 +1,36 @@
+name: memory_forge
+description: Adaptive Memory App with Audio Notifications
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  audioplayers: ^5.2.0
+  record: ^6.2.0
+  file_picker: ^10.3.10
+  path_provider: ^2.1.2
+  fl_chart: ^0.65.0
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/logo.png"
+  min_sdk_android: 21
